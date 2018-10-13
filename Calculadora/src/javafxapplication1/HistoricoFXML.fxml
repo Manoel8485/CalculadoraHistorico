@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.cell.* ?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="298.0" prefWidth="297.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="javafxapplication1.HistoricoController">
+    <children>
+        <TableView fx:id="tbResult" prefHeight="298.0" prefWidth="301.0">
+            <columns>
+                <TableColumn prefWidth="75.0" text="Num 1">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="primeiroValor"/>
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn prefWidth="34.0" text="Op" >
+                    <cellValueFactory>
+                        <PropertyValueFactory property="operador"/>
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn prefWidth="76.0" text="Num 2" >
+                    <cellValueFactory>
+                        <PropertyValueFactory property="segundoValor"/>
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn prefWidth="115.0" text="Resultado" >
+                    <cellValueFactory>
+                        <PropertyValueFactory property="resultado"/>
+                    </cellValueFactory>
+                </TableColumn>
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

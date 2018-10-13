@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" focusTraversable="true" prefHeight="361.0" prefWidth="433.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.FXMLDocumentController">
+    <children>
+      <Rectangle fill="#ffffffd4" height="53.0" layoutX="16.0" layoutY="33.0" stroke="#0000001a" strokeType="INSIDE" width="403.0" />
+        <Button fx:id="b9" layoutX="19.0" layoutY="107.0" onAction="#handleButtonAction" prefHeight="47.0" prefWidth="65.0" style="-fx-background-color: white; -fx-text-fill: black;" text="9">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="b8" layoutX="99.0" layoutY="107.0" onAction="#handleButtonAction" prefHeight="47.0" prefWidth="65.0" style="-fx-background-color: white; -fx-text-fill: black;" text="8">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="b7" layoutX="179.0" layoutY="107.0" onAction="#handleButtonAction" prefHeight="47.0" prefWidth="65.0" style="-fx-background-color: white; -fx-text-fill: black;" text="7">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="b6" layoutX="19.0" layoutY="171.0" onAction="#handleButtonAction" prefHeight="47.0" prefWidth="65.0" style="-fx-background-color: white; -fx-text-fill: black;" text="6">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="b5" layoutX="99.0" layoutY="171.0" onAction="#handleButtonAction" prefHeight="47.0" prefWidth="65.0" style="-fx-background-color: white; -fx-text-fill: black;" text="5">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="b4" layoutX="179.0" layoutY="171.0" onAction="#handleButtonAction" prefHeight="47.0" prefWidth="65.0" style="-fx-background-color: white; -fx-text-fill: black;" text="4">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="b1" layoutX="179.0" layoutY="235.0" onAction="#handleButtonAction" prefHeight="47.0" prefWidth="65.0" style="-fx-background-color: white; -fx-text-fill: black;" text="1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="b2" layoutX="99.0" layoutY="235.0" onAction="#handleButtonAction" prefHeight="47.0" prefWidth="65.0" style="-fx-background-color: white; -fx-text-fill: black;" text="2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="b3" layoutX="19.0" layoutY="235.0" onAction="#handleButtonAction" prefHeight="47.0" prefWidth="65.0" style="-fx-background-color: white; -fx-text-fill: black;" text="3">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="b00" layoutX="19.0" layoutY="299.0" onAction="#handleButtonAction" prefHeight="47.0" prefWidth="65.0" style="-fx-background-color: white; -fx-text-fill: black;" text="00">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="bp" layoutX="99.0" layoutY="299.0" onAction="#handleButtonAction" prefHeight="47.0" prefWidth="65.0" style="-fx-background-color: white; -fx-text-fill: black;" text=".">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="b0" layoutX="179.0" layoutY="299.0" onAction="#handleButtonAction" prefHeight="47.0" prefWidth="65.0" style="-fx-background-color: white; -fx-text-fill: black;" text="0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="bmais" layoutX="274.0" layoutY="235.0" onAction="#handleButtonAction" prefHeight="111.0" prefWidth="65.0" style="-fx-background-color: white; -fx-text-fill: black;" text="+">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="bvezes" layoutX="274.0" layoutY="171.0" onAction="#handleButtonAction" prefHeight="47.0" prefWidth="65.0" style="-fx-background-color: white; -fx-text-fill: black;" text="*">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="bmenos" layoutX="352.0" layoutY="235.0" onAction="#handleButtonAction" prefHeight="47.0" prefWidth="65.0" style="-fx-background-color: white; -fx-text-fill: black;" text="-">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="bigual" layoutX="352.0" layoutY="299.0" onAction="#handleButtonAction" prefHeight="47.0" prefWidth="65.0" style="-fx-background-color: white; -fx-text-fill: black;" text="=">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="bdiv" layoutX="352.0" layoutY="171.0" onAction="#handleButtonAction" prefHeight="47.0" prefWidth="65.0" style="-fx-background-color: white; -fx-text-fill: black;" text="/">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="bc" layoutX="274.0" layoutY="107.0" onAction="#handleButtonAction" prefHeight="47.0" prefWidth="65.0" style="-fx-background-color: white; -fx-text-fill: black;" text="C">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="boff" layoutX="352.0" layoutY="107.0" onAction="#handleButtonAction" prefHeight="47.0" prefWidth="65.0" style="-fx-background-color: white; -fx-text-fill: black;" text="OFF">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TextField fx:id="calc" layoutX="19.0" layoutY="36.0" prefHeight="47.0" prefWidth="396.0" />
+      <MenuButton layoutX="19.0" mnemonicParsing="false" style="-fx-border-radius: 0px; -fx-background-color: white;" text="Opções">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#historico" text="Histórico" />
+        </items>
+      </MenuButton>
+    </children>
+</AnchorPane>
